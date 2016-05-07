@@ -1,0 +1,18 @@
+{
+  "name": "Hello World!",
+  "description": "My first Chrome App.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "page_action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "128": "images/icon-128.png"
+    },
+    "default_title": "Jeopardy!"
+  },
+  "background": {
+    "scripts": ["scripts/background.js"],
+    "persistent": false
+  },
+  "icons": { "16": "images/icon-16.png", "128": "images/icon-128.png" }
+}
